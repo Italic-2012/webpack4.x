@@ -1,0 +1,10 @@
+{
+  "presets": [["es2015", { "module": false }], "stage-0", "react"],
+  "plugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }],
+    ["transform-class-properties", { "spec": true }],
+    ["transform-runtime", { "helpers": false, "polyfill": false, "regenerator": true, "moduleName": "babel-runtime" }],
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ]
+}
